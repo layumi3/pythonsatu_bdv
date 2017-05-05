@@ -1,0 +1,124 @@
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> a = "hello"
+>>> type(a)
+<type 'str'>
+>>> a = 1
+>>> type(a)
+<type 'int'>
+>>> a = 1.2
+>>> type(a)
+<type 'float'>
+>>> a = [1,2,3]
+>>> type(a)
+<type 'list'>
+>>> a = {'key':'value'}
+>>> type(a)
+<type 'dict'>
+>>> a = (1,2,3)
+>>> type(a)
+<type 'tuple'>
+>>> a = "Hello lilis"
+>>> dir
+<built-in function dir>
+>>> a.title()
+'Hello Lilis'
+>>> a.upper
+<built-in method upper of str object at 0x0329DE00>
+>>> a.upper()
+'HELLO LILIS'
+>>> pip install ipython
+  File "<stdin>", line 1
+    pip install ipython
+              ^
+SyntaxError: invalid syntax
+>>> cls
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cls' is not defined
+>>> del
+  File "<stdin>", line 1
+    del
+      ^
+SyntaxError: invalid syntax
+>>> a = [1,2]
+>>> a.index(2)
+1
+>>> a.index(4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: 4 is not in list
+>>> a.index(1)
+0
+>>> a.append(5)
+>>> a.index(3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: 3 is not in list
+>>> a.index(5)
+2
+>>> a
+[1, 2, 5]
+>>> a = {'key':'value'}
+>>> a.update({'nilai':'5'})
+>>> a
+{'nilai': '5', 'key': 'value'}
+>>> ab = (3,)
+>>> ac = a +ab
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'dict' and 'tuple'
+>>> ac = a + ab
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'dict' and 'tuple'
+>>> a=(1,2,3)
+>>> ab
+(3,)
+>>> ac
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ac' is not defined
+>>> ac = a + ab
+>>> ac
+(1, 2, 3, 3)
+>>> ac = ''
+>>> ac
+''
+>>> print "kokom hujan"
+kokom hujan
+>>> python testaja/hellow.py
+  File "<stdin>", line 1
+    python testaja/hellow.py
+                 ^
+SyntaxError: invalid syntax
+>>> python tesaja/hellow.py
+  File "<stdin>", line 1
+    python tesaja/hellow.py
+                ^
+SyntaxError: invalid syntax
+>>> python tesaja/helow.py
+  File "<stdin>", line 1
+    python tesaja/helow.py
+                ^
+SyntaxError: invalid syntax
